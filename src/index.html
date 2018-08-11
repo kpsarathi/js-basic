@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> To Do List with Local Storage </title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>TO-DO-LIST</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h1 class="text-success">TO DO LIST WITH LOCALSTORAGE</h1>
-          <p class="lead">This To Do list app saves your list items locally, on your computer. You don't need to be online to use it,
-                    and none of your data is sent out to the Internet.
-              <span id="showMore">
-                <a href="#">[more]</a>
-              </span>
-          </p>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> To Do List with Local Storage </title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>TO-DO-LIST</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-success">TO DO LIST WITH LOCALSTORAGE</h1>
+        <p class="lead">This To Do list app saves your list items locally, on your computer. You don't need to be online to use it, and none
+          of your data is sent out to the Internet.
+          <span id="showMore">
+            <a href="#">[more]</a>
+          </span>
+        </p>
+        <p class="lead" id="moreText">Because of the way localStorage works, you will not be able to see this To Do list on another device, or even in
+          another browser on the same device. If that suits your needs, you can rely on this small app to manage your personal
+          To Do items. To learn more about localStorage, see
+
+          <a href="https://www.w3.org/TR/webstorage/#the-localstorage-attribute" target="_blank">this</a> or
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage" target="_blank">this</a>
+          <span id="showLess">
+            <a href="#">[less]</a>
+          </span>
+        </p>
+
       </div>
 
     </div>
-  </body>
-  <script type="text/javascript" src="index.js">
+  </div>
+
+  </div>
+</body>
+<script type="text/javascript" src="index.js">
 
 
-  </script>
+</script>
+
 </html>
